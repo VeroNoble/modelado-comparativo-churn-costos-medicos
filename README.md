@@ -1,4 +1,4 @@
-# Modelado comparativo: churn de clientes y costos médicos de un seguro
+# Modelado comparativo: churn en telecomunicaciones (Telco Customer Churn) y costos médicos de un seguro (Medical Cost Personal)
 
 > 🚧 **En desarrollo.** Trabajo práctico grupal de la Tecnicatura Superior en Ciencia de Datos e IA (materia Modelizado de Minería de Datos). Entrega: noviembre 2026.
 
