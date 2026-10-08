@@ -15,7 +15,7 @@ Flujo completo de minería de datos aplicado a dos problemas de negocio, compara
 2. **Limpieza:** columna numérica guardada como texto, faltantes imputados con criterio de negocio, categorías redundantes, duplicados y atípicos.
 3. **Preprocesamiento:** Label, One-Hot y Target Encoding; comparación de MinMax, estandarización, Normalizer, Binarizer, Box-Cox y Yeo-Johnson, siempre ajustados sólo con train y dentro de Pipelines.
 4. **Selección de variables y reducción de dimensiones:** RFE con cantidad de variables elegida por validación cruzada (clasificación), importancia con Random Forest (regresión) y PCA sobre las variables del modelo base, con comparación **modelo base vs. selección vs. PCA**.
-5. **Modelado:** regresión logística, LDA, k-NN, Naive Bayes, árboles y SVM; regresión lineal, Ridge, LASSO, ElasticNet, k-NN, árboles y SVR, con ajuste de hiperparámetros y K-Fold.
+5. **Modelado:** regresión logística, LDA, k-NN, Naive Bayes, árboles y SVM; regresión lineal, Ridge, LASSO, ElasticNet, k-NN, árboles y SVR, con ajuste manual de hiperparámetros (probando algunos valores por algoritmo) y validación cruzada K-Fold.
 6. **Evaluación en test** y conclusiones orientadas al negocio.
 
 ## Resultados principales (conjunto de prueba)
